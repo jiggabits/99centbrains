@@ -1,0 +1,185 @@
+@font-face {
+ font-family: 'LS Cooper Black';
+ src: url('../LS_Cooper_BLack.ttf') format('truetype'),
+  url('../cooperblack.woff') format('woff');
+ font-weight: normal;
+ font-style: normal;
+}
+
+body {
+  background-color: #FFFFFF;
+  background: url('../images/linedback.png');
+  background-size: 100%;
+  color: #000000;
+  font-family: Arial;
+  font-size: 12px;
+  text-align: center;
+  padding: 0;
+  margin: 0;
+}
+
+div#container {
+  display: inline-block;
+  position: relative;
+  top: 100px;
+  margin: 0 auto;
+  width: 800px;
+  height: 100%;
+}
+
+div#header {
+  position: relative;
+  height: 330px;
+  width: 512px;
+  margin: 0 auto;
+  padding: 0;
+}
+
+div#header header div {
+  position: absolute;
+  display: block;
+}
+
+div#header div.brainbackground {
+  width: 418px;
+  height: 238px;
+  left: 60.0000000000001px; 
+  top: 32px;  
+  background-image: url('../images/brains/brainbackground.png');
+}
+
+div#header .braincontainer {
+  width: 476px; 
+  height: 297px; 
+  left: 31px; 
+  top: 3px;  
+  background-image: url('../images/brains/braincontainer.png');
+  -webkit-background-clip: content-box;
+}
+
+div#header .brain01 {
+  width: 113px; 
+  height: 18px; 
+  left: 311px; 
+  top: 70px;  
+  background-image: url('../images/brains/brain01.png');
+}
+
+div#header .brain02 {
+  width: 73px; 
+  height: 17px; 
+  left: 418px; 
+  top: 158px;  
+  background-image: url('../images/brains/brain02.png');
+}
+
+div#header .brain03 {
+  width: 127px; 
+  height: 47px; 
+  left: 322px; 
+  top: 203px;  
+  background-image: url('../images/brains/brain03.png');
+}
+
+div#header .brain04 {
+  width: 290px;  
+  height: 76px; 
+  left: 104px; 
+  top: 135px;  
+  background-image: url('../images/brains/brain04.png');
+}
+
+div#header .brain05 {
+  width: 112px; 
+  height: 18px; 
+  left: 90px; 
+  top: 92px;  
+  background-image: url('../images/brains/brain05.png');
+}
+
+div#header .brain06 {
+  width: 185px; 
+  height: 105px; 
+  left: 233px; 
+  top: 40px;  
+  background-image: url('../images/brains/brain06.png');
+}
+
+div#header .brain07 {
+  width: 186px; 
+  height: 47px; 
+  left: 50px; 
+  top: 173px;  
+  background-image: url('../images/brains/brain07.png');
+}
+
+div#header .outline_copy {
+  width: 268px; 
+  height: 192px; 
+  left: 6.00000000000006px; 
+  top: 134px;  
+  background-image: url('../images/brains/99outline_copy.png');
+}
+
+div#content {
+  margin: 0 auto;
+}
+
+div#content div.facebook-like {
+  padding: 20px;
+  width: 511px;
+  float: right;
+}
+
+form#mailchimp input {
+  font-size: 28px;  
+  font-family: 'LS Cooper Black';
+  text-align: center;
+}
+
+form#mailchimp a.submit {
+  width: 75px;
+  height: 49px;
+  background-color: #000000;
+  color: #FFFFFF;
+  font-size: 28px;
+  font-family: 'LS Cooper Black';
+  text-decoration: none;
+  padding: 3px 5px;
+}
+
+div#container div#content div.social-sharing h2 {
+  font-family: 'LS Cooper Black';
+  font-size: 2.5em;
+  padding: 0;
+  margin: 20px 0;
+}
+
+div#content div.icons {
+  width: 300px;
+  margin: 0 auto;
+}
+
+div#content div.icons a:link {
+  width: 24%;
+  display: inline-block;
+}
+
+div#content div.icons img {
+  border: 0;
+  width: 52px;
+  height: 52px;
+} 
+
+div#footer {
+  background-color: #FF009D;
+  position: fixed;
+  width: 100%;
+  color: #FFFFFF;
+  font-size: 18px;
+  font-family: 'LS Cooper Black';
+  margin: 0;
+  padding: 10px 0;
+  bottom: 0;
+  box-shadow: 0 -2px 5px gray;
+}
