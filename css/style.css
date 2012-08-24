@@ -1,7 +1,7 @@
 @font-face {
  font-family: 'LS Cooper Black';
- src: url('../LS_Cooper_BLack.ttf') format('truetype'),
-  url('../cooperblack.woff') format('woff');
+ src: url('http://jiggabits.com/99centbrains/LS_Cooper_BLack.ttf') format('truetype'),
+  url('http://jiggabits.com/99centbrains/cooperblack.woff') format('woff');
  font-weight: normal;
  font-style: normal;
 }
