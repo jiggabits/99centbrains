@@ -1,7 +1,7 @@
 @font-face {
  font-family: 'LS Cooper Black';
- src: url('http://jiggabits.com/99centbrains/LS_Cooper_BLack.ttf') format('truetype'),
-  url('http://jiggabits.com/99centbrains/cooperblack.woff') format('woff');
+ src: url('LS_Cooper_BLack.ttf') format('truetype'),
+  url('cooperblack.woff') format('woff');
  font-weight: normal;
  font-style: normal;
 }
@@ -127,8 +127,8 @@ div#content {
 
 div#content div.facebook-like {
   padding: 20px;
-  width: 511px;
-  float: right;
+  width: 800px;
+  text-align: center;
 }
 
 form#mailchimp input {
