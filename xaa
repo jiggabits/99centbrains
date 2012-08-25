@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>99 Cent Brains</title>
+  <link href="http://fonts.googleapis.com/css?family=McLaren" rel="stylesheet" type="text/css">
+  <link href='http://fonts.googleapis.com/css?family=Waiting+for+the+Sunrise' rel='stylesheet' type='text/css'>
+  <link href="css/style.css" rel="stylesheet" type="text/css">
+</head>
+<body>
+
+<div id="fb-root"></div>
+<script>(function(d, s, id) {
+  var js, fjs = d.getElementsByTagName(s)[0];
+  if (d.getElementById(id)) return;
+  js = d.createElement(s); js.id = id;
+  js.src = "//connect.facebook.net/en_US/all.js#xfbml=1";
+  fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));</script>
+
+<div id="container">
+
+  <div id="header">
+    <header>
+    <div class="brainbackground"></div>
+  <div class="braincontainer"></div>
+  <div class="brain01"></div>
+  <div class="brain02"></div>
+  <div class="brain03"></div>
+  <div class="brain04"></div>
+  <div class="brain05"></div>
+  <div class="brain06"></div>
+  <div class="brain07"></div>
+  <div class="outline_copy"></div>
+    </header>
+  </div>
+  <div id="content">
+
+    <div class="facebook-like">
+    <div class="fb-like" data-href="http://facebook.com/99centbrains" data-send="false" data-width="200" data-show-faces="false" data-font="verdana"></div>
+    </div>
+
+    <form id="mailchimp">
+      <input type="text" name="email" value="SIGN UP">
+      <input type="submit" value="OK">
+    </form>
+
+    <div class="social-sharing">
+
+      <h2>Follow us for future updates</h2>
+
+      <div class="icons">
+        <a href="http://facebook.com/99centbrains"><img src="images/facebook.png"></a>
+        <a href="http://99centbrains.tumblr.com"><img src="images/tumblr.png"></a>
+        <a href="http://twitter.com/99centbrains"><img src="images/twitter.png"></a>
+        <a href="http://statigr.am/tag/99centbrains"><img src="images/instagram.png"></a>
+      </div>
+
+    </div>
+
+  </div>
+
+  <div id="footer">
+    <footer>
+      App inquiries email:<BR>
+     info@99centbrains.com
+    </footer>
+  </div>
+
+</div>
+
+</body>
+</html>
